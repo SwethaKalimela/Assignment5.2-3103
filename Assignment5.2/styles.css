@@ -1,0 +1,17 @@
+
+div{
+    transform: translate(20px,0); /*To maintain a internal sace of 20px*/
+}
+.container{ /*For larger screens bg green*/
+   background: green;
+   height: 20px;
+   color: white;
+}
+
+@media only screen and (max-width: 600px) { /*Media query of blue bg is applied when screen width is 600px*/
+    .container{
+        background: blue;
+        height: 20px;
+        color: white;
+     }
+}
